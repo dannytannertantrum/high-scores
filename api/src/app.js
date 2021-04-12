@@ -1,8 +1,8 @@
-const express = require('express')
+import express from 'express'
 const app = express()
 
 app.get('/healthcheck', (reqest, response) => {
   response.send('GLC is the best')
 })
 
-module.exports = app
+export default app
