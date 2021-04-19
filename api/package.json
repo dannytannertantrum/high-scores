@@ -4,9 +4,12 @@
   "description": "API layer for inputting high scores, man",
   "main": "index.js",
   "scripts": {
+    "migrate": "knex migrate:make",
+    "migrate-down": "knex migrate:down",
+    "migrate-latest": "knex migrate:latest",
+    "start": "nodemon -r esm src/server.js",
     "test": "jest",
-    "testWatch": "jest --watch",
-    "start": "nodemon -r esm src/server.js"
+    "testWatch": "jest --watch"
   },
   "author": "Jaime Farnan",
   "license": "ISC",
