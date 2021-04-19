@@ -7,6 +7,7 @@
     "migrate": "knex migrate:make",
     "migrate-down": "knex migrate:down",
     "migrate-latest": "knex migrate:latest",
+    "seed": "knex seed:run",
     "start": "nodemon -r esm src/server.js",
     "test": "jest",
     "testWatch": "jest --watch"

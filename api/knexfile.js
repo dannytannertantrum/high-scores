@@ -22,6 +22,9 @@ if (NODE_ENV === 'development') {
     migrations: {
       directory: './migrations',
       tableName: 'migrations'
+    },
+    seeds: {
+      directory: './seeds'
     }
   }
 }
